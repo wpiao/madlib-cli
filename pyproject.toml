@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "madlib-cli"
+version = "0.1.0"
+description = ""
+authors = ["Wenhao Piao <wenhaopi@amazon.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^6.2.5"
+black = "^21.12b0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
